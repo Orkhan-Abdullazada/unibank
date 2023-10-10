@@ -1,0 +1,179 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+   background-color:rgb(49, 48, 48);
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 20px;
+height: 5px;
+
+}
+.header__middle a{
+    text-decoration: none;
+    color: white;
+   
+}
+.header__left i{
+    color: rgb(212, 102, 12);
+    font-size: 28px;
+   
+}
+.header__middle ul{
+display: flex;
+gap: 30px;
+list-style: none;
+}
+.cards ul{
+   display: flex;
+   list-style: none;
+   gap: 70px;
+}
+.cards a{
+    text-decoration: none;
+    color: white;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    color: orange;
+    background-color: black;
+}
+main{
+    background-color:rgb(49, 48, 48);
+}
+.container{
+    align-items: center;
+    justify-content: center; 
+    width:100%;
+  display: flex;
+  height: 100vh;
+}
+body{
+    background-color:rgb(49, 48, 48);
+}
+.box{
+    background-color: rgb(255, 89, 0);
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    /* padding: 7%; */
+}
+.box h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+.box p{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.major{
+    color: white;
+    display: flex;
+    gap: 6%;
+    justify-content: space-evenly;
+    
+}
+.card h1{
+    color: rgb(193, 92, 10);
+}
+.card button{
+background-color: rgb(193, 92, 10); 
+border-radius: 28px;
+font-size: 10px;
+width: 100px;
+height: 30px;
+border: none;
+color:white;
+}
+.sumbit{
+    width: 100%;
+    height: 100%;
+   
+    background-color:rgb(49, 48, 48);
+    border: 1px solid black;
+  
+    transition: 0.3s;
+    border: 0;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.sumbit h1{
+    color:rgb(193, 92, 10); 
+}
+.sumbit p{
+    color: white;
+    
+}
+.sumbit button{
+    border-radius: 22px;
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
+    border: none;
+  color:white;
+
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+ .sumbit button:hover {color: orangered;
+
+  }
+  .button{
+    display: flex;
+    gap: 30px;
+  }
+  .play{
+    background-color: rgb(254, 254, 254);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+   background-color: rgb(49, 48, 48);
+  }
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(49, 48, 48);
+}
+.play h1{
+    color:rgb(193, 92, 10); 
+
+}
+.npg button{
+    color: rgba(252, 252, 252, 0.937);
+   
+}
+.play p{
+    color: white;
+}
+.omg button{
+color: white;
+width: 100px;
+height: 30px;
+font-size: 15px;
+}
+.invente{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 10px;
+}
+.settings button{
+   
+}
